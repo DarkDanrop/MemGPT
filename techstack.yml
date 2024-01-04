@@ -1,7 +1,8 @@
 repo_name: DarkDanrop/MemGPT
 report_id: 98459fedefe86190a31de2ad4293a407
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:10:49+00:00'
+timestamp: '2024-01-04T14:53:30+00:00'
 requested_by: cpacker
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DarkDanrop/MemGPT
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DarkDanrop/MemGPT
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DarkDanrop/MemGPT/blob/main/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: Charles Packer
   last_updated_on: 2023-10-19 23:25:17.000000000 Z
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/DarkDanrop/MemGPT/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Charles Packer
   last_updated_on: 2023-10-13 01:48:58.000000000 Z
@@ -57,18 +62,20 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/DarkDanrop/MemGPT/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Charles Packer
   last_updated_on: 2023-10-13 01:48:58.000000000 Z
 - name: python-dotenv
   description: Add .env support to your django/flask apps in development and deployments
-  package_url: https://pypi.org/python-dotenv
+  package_url: https://pypi.org/project/python-dotenv
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/DarkDanrop/MemGPT/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Dane Hillard
   last_updated_on: 2023-10-17 13:06:53.000000000 Z
